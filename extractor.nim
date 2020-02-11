@@ -3,7 +3,7 @@ import strutils
 import strformat
 
 const questionURL: string = "http://challenge.i2a2.ca/question"
-const totalRequests: int = 800
+const totalRequests: int = 1000
 const overflowFails: int = 160
 const fileName: string = "QUESTIONS.md"
 
