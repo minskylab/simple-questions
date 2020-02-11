@@ -33,7 +33,8 @@ f.writeLine("## I2A2 Questions\n")
 f.writeLine("### Questions")
 f.writeLine("This questions were scraped from " & questionURL & "\n")
 f.writeLine(fmt"`Total questions: {totalQuestions}`" & "\n")
-for q in questions:
-    f.writeLine("> " & q.replace("\"", ""))
+
+for i, q in questions:
+    f.writeLine("> " & q.replace("\"", "") & "\n")
 
 f.close()
